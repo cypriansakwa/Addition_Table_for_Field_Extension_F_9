@@ -20,13 +20,25 @@ The program provides a method `add` for adding two field elements according to t
 
 ## Usage
 
-To run the program, execute the following command:
-\begin{verbatim}
-cargo run
-\end{verbatim}
+To run the program, ensure you have Rust installed on your machine. (If Rust is not installed, follow the instructions on the [official Rust website](https://www.rust-lang.org/tools/install) to install it). Then, use the following commands:
+
+>```
+>cargo build --release
+>cargo run
 
 The program will output the elements of the field and display the addition table.
 
-\section*{Addition Table}
+## Addition Table
 
-The addition table for $\mathbb{F}_{3^2}$ is computed and printed in the console. The rows and columns of the table represent the elements of the field, and each cell contains the sum of the corresponding elements.
+The addition table for $\mathbb{F}\_{3^2}$ is computed and printed in the console. The rows and columns of the table represent the elements of the field, and each cell contains the sum of the corresponding elements.
+
+## Contributing
+  - If you intend to contribute to this project, fork the repository and make a pull request.
+## Acknowledgments
+- Rust
+
+## Clone the repository:
+
+   ```bash
+   git clone https://github.com/cypriansakwa/Addition_Table_for_Field_Extension_F_9.git
+   cd Addition_Table_for_Field_Extension_F_9
